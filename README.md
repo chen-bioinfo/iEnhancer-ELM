@@ -44,7 +44,7 @@
 
 ### Performance comparison in the independent dataset of the second dataset
  
-&nbsp;&nbsp;&nbsp;&nbsp; The below table shows the performance comparison in the independent dataset between ensemble iEnhancer-ELM and the state-of-the-art predictors for enhancer indefication.
+&nbsp;&nbsp;&nbsp;&nbsp; The below table shows the performance comparison in the independent dataset of the second dataset. Enhancer-IF [5] is one stat-of-the-art method, which contains enhancer datasets in varying length. 
 
 | cell line     | method        |Bacc     |Sn       | Sn       | MCC      |AUC    | 
 | :------------:| :---------:   | :-----: | :-----: | :-----:  | :------: | :----:| 
@@ -103,3 +103,4 @@ cd iEnhancer-ELM/code
 [2] Bailey T L. STREME: accurate and versatile sequence motif discovery[J]. Bioinformatics, 2021, 37(18): 2834-2840.<br>
 [3] Castro-Mondragon J A, Riudavets-Puig R, Rauluseviciute I, et al. JASPAR 2022: the 9th release of the open-access database of transcription factor binding profiles[J]. Nucleic acids research, 2022, 50(D1): D165-D173.<br>
 [4] Gupta S, Stamatoyannopoulos J A, Bailey T L, et al. Quantifying similarity between motifs[J]. Genome biology, 2007, 8(2): 1-9.<br>
+[5] Basith S, Hasan M M, Lee G, et al. Integrative machine learning framework for the identification of cell-specific enhancers from the human genome[J]. Briefings in Bioinformatics, 2021, 22(6): bbab252.
