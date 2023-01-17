@@ -48,39 +48,31 @@
 
 | cell line     | method        |Bacc     |Sn       | Sn       | MCC      |AUC    | Source  |
 | :------------:| :---------:   | :-----: | :-----: | :-----:  | :------: | :----:| :------:|
-| <td rowspan="3">HEK293</td> | Enhancer-IF   |0.8170   | 0.7750  | 0.8580   | 0.6250   | 0.8930|    11     |
-|              |non-fine-tuning|0.8278   | 0.8047  | 0.8509   | 0.6409   | 0.9114|    11     |
-|              |fine-tuning    |0.8732   | 0.8666  | 0.8798   | 0.7283   | 0.9289|    11     |
+| HEK293        | Enhancer-IF   |0.8170   | 0.7750  | 0.8580   | 0.6250   | 0.8930|    11   |
+|               |non-fine-tuning|0.8278   | 0.8047  | 0.8509   | 0.6409   | 0.9114|    11   |
+|               |fine-tuning    |0.8732   | 0.8666  | 0.8798   | 0.7283   | 0.9289|    11   |
+| NHEK          | Enhancer-IF   |0.7480   | 0.7340  | 0.7620   | 0.4770   | 0.8100|    11   |
+|               |non-fine-tuning|0.7191   | 0.7717  | 0.6665   | 0.4137   | 0.7928|    11   |
+|               |fine-tuning    |0.7706   | 0.7909  | 0.7501   | 0.5152   | 0.8467|    11   |
+| K652          | Enhancer-IF   |0.7730   | 0.7730  | 0.7720   | 0.5230   | 0.8520|    11   |
+|               |non-fine-tuning|0.7834   | 0.8394  | 0.7275   | 0.5360   | 0.8605|    11   |
+|               |fine-tuning    |0.7974   | 0.8180  | 0.7767   | 0.5679   | 0.8712|    11   |
+| GM12878       | Enhancer-IF   |0.8140   | 0.7550  | 0.8730   | 0.6260   | 0.9010|    11   |
+|               |non-fine-tuning|0.8186   | 0.7402  | 0.8969   | 0.6463   | 0.9152|    11   |
+|               |fine-tuning    |0.8222   | 0.7564  | 0.8879   | 0.6475   | 0.9179|    11   |
+| HMEC          | Enhancer-IF   |0.7530   | 0.7400  | 0.7650   | 0.4850   | 0.8390|    11   |
+|               |non-fine-tuning|0.7628   | 0.7694  | 0.7563   | 0.5022   | 0.8352|    11   |
+|               |fine-tuning    |0.7685   | 0.7827  | 0.7543   | 0.5122   | 0.8403|    11   |
+| HSMM          | Enhancer-IF   |0.7180   | 0.7090  | 0.7270   | 0.4170   | 0.7940|    11   |
+|               |non-fine-tuning|0.7225   | 0.7592  | 0.6859   | 0.4208   | 0.7987|    11   |
+|               |fine-tuning    |0.7201   | 0.7388  | 0.7013   | 0.4175   | 0.7909|    11   |
+| NHLF          | Enhancer-IF   |0.7940   | 0.7890  | 0.7980   | 0.5650   | 0.8650|    11   |
+|               |non-fine-tuning|0.7551   | 0.8325  | 0.6777   | 0.4810   | 0.8266|    11   |
+|               |fine-tuning    |0.7884   | 0.8236  | 0.7532   | 0.5479   | 0.8623|    11   |
+| HUVEC         | Enhancer-IF   |0.7370   | 0.7520  | 0.7220   | 0.4500   | 0.8110|    11   |
+|               |non-fine-tuning|0.7353   | 0.8085  | 0.6620   | 0.4436   | 0.8061|    11   |
+|               |fine-tuning    |0.7334   | 0.7691  | 0.6977   | 0.4417   | 0.8045|    11   |
 
-\begin{table}[]
-\begin{tabular}{llccccc}
-cell line                                        & methods                                & {\color[HTML]{333333} bacc}   & {\color[HTML]{333333} sn}     & {\color[HTML]{333333} sp}     & {\color[HTML]{333333} mcc}    & {\color[HTML]{333333} AUC}    \\
-{\color[HTML]{333333} }                          & {\color[HTML]{333333} Enhancer-IF}     & {\color[HTML]{333333} 0.814}  & {\color[HTML]{333333} 0.755}  & {\color[HTML]{333333} 0.873}  & {\color[HTML]{333333} 0.626}  & {\color[HTML]{333333} 0.901}  \\
-{\color[HTML]{333333} }                          & {\color[HTML]{333333} non-fine-tuning} & {\color[HTML]{333333} 0.814}  & {\color[HTML]{333333} 0.755}  & {\color[HTML]{333333} 0.873}  & {\color[HTML]{333333} 0.626}  & {\color[HTML]{333333} 0.901}  \\
-\multirow{-3}{*}{{\color[HTML]{333333} GM12878}} & {\color[HTML]{333333} fine-tuning}     & {\color[HTML]{333333} 0.8222} & {\color[HTML]{333333} 0.7564} & {\color[HTML]{333333} 0.8879} & {\color[HTML]{333333} 0.6475} & {\color[HTML]{333333} 0.9179} \\
-{\color[HTML]{333333} }                          & {\color[HTML]{333333} Enhancer-IF}     & {\color[HTML]{333333} 0.817}  & {\color[HTML]{333333} 0.775}  & {\color[HTML]{333333} 0.858}  & {\color[HTML]{333333} 0.625}  & {\color[HTML]{333333} 0.893}  \\
-{\color[HTML]{333333} }                          & {\color[HTML]{333333} non-fine-tuning} & 0.82776                       & 0.80466                       & 0.85086                       & 0.64089                       & 0.91143                       \\
-\multirow{-3}{*}{{\color[HTML]{333333} HEK293}}  & {\color[HTML]{333333} fine-tuning}     & {\color[HTML]{333333} 0.8732} & {\color[HTML]{333333} 0.8666} & {\color[HTML]{333333} 0.8798} & {\color[HTML]{333333} 0.7283} & {\color[HTML]{333333} 0.9289} \\
-{\color[HTML]{333333} }                          & {\color[HTML]{333333} Enhancer-IF}     & {\color[HTML]{333333} 0.753}  & {\color[HTML]{333333} 0.74}   & {\color[HTML]{333333} 0.765}  & {\color[HTML]{333333} 0.485}  & {\color[HTML]{333333} 0.839}  \\
-{\color[HTML]{333333} }                          & {\color[HTML]{333333} non-fine-tuning} & 0.762815                      & 0.76936                       & 0.75627                       & 0.50221                       & 0.83521                       \\
-\multirow{-3}{*}{{\color[HTML]{333333} HMEC}}    & {\color[HTML]{333333} fine-tuning}     & {\color[HTML]{333333} 0.7685} & {\color[HTML]{333333} 0.7827} & {\color[HTML]{333333} 0.7543} & {\color[HTML]{333333} 0.5122} & {\color[HTML]{333333} 0.8403} \\
-{\color[HTML]{333333} }                          & {\color[HTML]{333333} Enhancer-IF}     & {\color[HTML]{333333} 0.773}  & {\color[HTML]{333333} 0.773}  & {\color[HTML]{333333} 0.772}  & {\color[HTML]{333333} 0.523}  & {\color[HTML]{333333} 0.852}  \\
-{\color[HTML]{333333} }                          & {\color[HTML]{333333} non-fine-tuning} & 0.78344                       & 0.8394                        & 0.72748                       & 0.53604                       & 0.86046                       \\
-\multirow{-3}{*}{{\color[HTML]{333333} K652}}    & {\color[HTML]{333333} fine-tuning}     & {\color[HTML]{333333} 0.7974} & {\color[HTML]{333333} 0.818}  & {\color[HTML]{333333} 0.7767} & {\color[HTML]{333333} 0.5679} & {\color[HTML]{333333} 0.8712} \\
-{\color[HTML]{333333} }                          & {\color[HTML]{333333} Enhancer-IF}     & {\color[HTML]{333333} 0.737}  & {\color[HTML]{333333} 0.752}  & {\color[HTML]{333333} 0.722}  & {\color[HTML]{333333} 0.45}   & {\color[HTML]{333333} 0.811}  \\
-{\color[HTML]{333333} }                          & {\color[HTML]{333333} non-fine-tuning} & 0.73525                       & 0.80852                       & 0.66198                       & 0.44361                       & 0.80609                       \\
-\multirow{-3}{*}{{\color[HTML]{333333} HUVEC}}   & {\color[HTML]{333333} fine-tuning}     & {\color[HTML]{333333} 0.7334} & {\color[HTML]{333333} 0.7691} & {\color[HTML]{333333} 0.6977} & {\color[HTML]{333333} 0.4417} & {\color[HTML]{333333} 0.8045} \\
-{\color[HTML]{333333} }                          & {\color[HTML]{333333} Enhancer-IF}     & {\color[HTML]{333333} 0.718}  & {\color[HTML]{333333} 0.709}  & {\color[HTML]{333333} 0.727}  & {\color[HTML]{333333} 0.417}  & {\color[HTML]{333333} 0.794}  \\
-{\color[HTML]{333333} }                          & {\color[HTML]{333333} non-fine-tuning} & 0.722535                      & 0.75921                       & 0.68586                       & 0.4208                        & 0.79865                       \\
-\multirow{-3}{*}{{\color[HTML]{333333} HSMM}}    & {\color[HTML]{333333} fine-tuning}     & {\color[HTML]{333333} 0.7201} & {\color[HTML]{333333} 0.7388} & {\color[HTML]{333333} 0.7013} & {\color[HTML]{333333} 0.4175} & {\color[HTML]{333333} 0.7909} \\
-{\color[HTML]{333333} }                          & {\color[HTML]{333333} Enhancer-IF}     & {\color[HTML]{333333} 0.748}  & {\color[HTML]{333333} 0.734}  & {\color[HTML]{333333} 0.762}  & {\color[HTML]{333333} 0.477}  & {\color[HTML]{333333} 0.81}   \\
-{\color[HTML]{333333} }                          & {\color[HTML]{333333} non-fine-tuning} & {\color[HTML]{333333} 0.7191} & {\color[HTML]{333333} 0.7717} & {\color[HTML]{333333} 0.6665} & {\color[HTML]{333333} 0.4134} & {\color[HTML]{333333} 0.7928} \\
-\multirow{-3}{*}{{\color[HTML]{333333} NHEK}}    & {\color[HTML]{333333} fine-tuning}     & {\color[HTML]{333333} 0.7706} & {\color[HTML]{333333} 0.7909} & {\color[HTML]{333333} 0.7501} & {\color[HTML]{333333} 0.5152} & {\color[HTML]{333333} 0.8467} \\
-{\color[HTML]{333333} }                          & {\color[HTML]{333333} Enhancer-IF}     & {\color[HTML]{333333} 0.794}  & {\color[HTML]{333333} 0.789}  & {\color[HTML]{333333} 0.798}  & {\color[HTML]{333333} 0.565}  & {\color[HTML]{333333} 0.865}  \\
-{\color[HTML]{333333} }                          & {\color[HTML]{333333} non-fine-tuning} & 0.755075                      & 0.83249                       & 0.67766                       & 0.48103                       & 0.82662                       \\
-\multirow{-3}{*}{{\color[HTML]{333333} NHLF}}    & {\color[HTML]{333333} fine-tuning}     & {\color[HTML]{333333} 0.7884} & {\color[HTML]{333333} 0.8236} & {\color[HTML]{333333} 0.7532} & {\color[HTML]{333333} 0.5479} & {\color[HTML]{333333} 0.8623}
-\end{tabular}
-\end{table}
 
 ## Code
 ### Enviromnent
